@@ -1,0 +1,38 @@
+1)node_modules
+=>It contains all the node packages (npm packages) needed for the project.
+
+2)public
+=>The public folder contain files that are static assests that 
+we want to publicly accessable like svg icons, images,media-files,fonts etc.
+
+3)src
+=>As it's name suggest it contains source files like components,utils, app etc.
+
+4)app
+=>The app folder is called the app router folder,
+it is responsible for routing and rendering pages by default which 
+is server side rendering but we can make the render client side as well.
+Every folder inside the app router folder represents a route
+if that folder has a page.js/page.jsx/page.ts/page.tsx file.
+It contains various files like layout and page,
+global.css and favicon.
+
+5).gitignore
+=>All files that are mentioned in this file will be ignored by git.
+
+6)jsconfig.json
+=>This file is used to configure the JavaScript language features,
+module resolution,and paths for our project.
+
+7)next.config.js/page
+=>It allows you to customize various aspects of our Next.js project.
+It provides a way to modify the default behavior and settings of Next.js such as webpack configuration
+,environment variables, asset optimization and more.
+
+8)package-lock.json
+=>This fill is automatically generated when we use npm package manager to install
+or update packages for our project.
+
+9)package.json
+=>This file includes about our projects general info. like project name
+version,description,author,license,dependencies,scripts and more.
